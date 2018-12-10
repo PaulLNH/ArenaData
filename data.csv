@@ -1,4 +1,31 @@
 Timestamp;Map;PlayersNumber;TeamComposition;EnemyComposition;Duration;Victory;KillingBlows;Damage;Healing;Honor;RatingChange;MMR;EnemyMMR;Specialization;isRated
+1544352708;1911;4;MAGE-Frost,ROGUE-Assassination;PRIEST-Discipline,ROGUE-Assassination;213;false;1;376448;183016;0;-12;1593;1586;Frost;true
+1544352340;1504;4;MAGE-Frost,ROGUE-Assassination;PRIEST-Discipline,WARRIOR-Arms;153;false;0;278376;141833;0;-11;1619;1623;Frost;true
+1544352141;1505;4;MAGE-Frost,ROGUE-Assassination;PALADIN-Holy,WARRIOR-Arms;194;true;1;445159;39533;0;12;1594;1584;Frost;true
+1544351923;1505;4;MAGE-Frost,ROGUE-Assassination;PRIEST-Discipline,WARRIOR-Fury;142;true;0;349372;34799;0;12;1568;1564;Frost;true
+1544351729;980;4;MAGE-Frost,ROGUE-Assassination;MONK-Mistweaver,ROGUE-Assassination;177;false;0;211587;194692;0;-11;1594;1597;Frost;true
+1544351518;1134;4;MAGE-Frost,ROGUE-Assassination;PALADIN-Retribution,PRIEST-Discipline;189;false;0;354003;114271;0;-11;1621;1620;Frost;true
+1544351308;1552;4;MAGE-Frost,ROGUE-Assassination;DEATHKNIGHT-Unholy,DRUID-Restoration;141;false;0;464424;46521;0;-10;1648;1640;Frost;true
+1544351119;617;4;MAGE-Frost,ROGUE-Assassination;PRIEST-Discipline,ROGUE-Assassination;112;true;1;208129;29492;0;13;1622;1621;Frost;true
+1544350985;1552;4;MAGE-Frost,ROGUE-Assassination;MAGE-Frost,PRIEST-Discipline;155;false;0;192570;134223;0;-10;1649;1645;Frost;true
+1544350786;572;4;MAGE-Frost,ROGUE-Assassination;HUNTER-Survival,PALADIN-Holy;119;true;0;214531;64952;0;14;1623;1622;Frost;true
+1544350627;1552;4;MAGE-Frost,ROGUE-Assassination;PRIEST-Shadow,ROGUE-Assassination;90;true;2;188866;0;0;13;1596;1594;Frost;true
+1544350465;1505;4;MAGE-Frost,ROGUE-Assassination;PRIEST-Discipline,ROGUE-Assassination;208;true;0;441581;126658;0;13;1570;1570;Frost;true
+1544345782;1825;4;MAGE-Frost,ROGUE-Assassination;DEATHKNIGHT-Unholy,SHAMAN-Restoration;124;false;0;82014;107161;0;-12;1554;1556;Frost;true
+1544345629;617;4;MAGE-Frost,ROGUE-Assassination;MAGE-Fire,MAGE-Fire;143;true;0;186365;924;0;18;1515;1742;Frost;true
+1544345463;1505;4;MAGE-Frost,ROGUE-Assassination;HUNTER-Beast Mastery,WARRIOR-Arms;106;true;0;191470;65137;0;10;1490;1480;Frost;true
+1544345237;1825;4;MAGE-Frost,ROGUE-Assassination;DRUID-Feral,PRIEST-Discipline;97;false;0;168428;72555;0;-5;1493;1790;Frost;true
+1544345087;1134;4;MAGE-Frost,ROGUE-Assassination;PALADIN-Holy,SHAMAN-Enhancement;111;true;0;210710;20430;0;10;1466;1472;Frost;true
+1544343945;1552;4;MAGE-Frost,ROGUE-Assassination;MAGE-Fire,SHAMAN-Restoration;200;false;0;446127;127101;0;-12;1529;1534;Frost;true
+1544343717;1825;4;MAGE-Frost,ROGUE-Assassination;MAGE-Frost,PRIEST-Discipline;161;false;0;204048;80770;0;-12;1557;1555;Frost;true
+1544343401;1911;4;MAGE-Frost,ROGUE-Outlaw;DEATHKNIGHT-Blood,DRUID-Restoration;241;false;0;256540;118871;0;-17;1426;1421;Frost;true
+1544343118;617;4;MAGE-Frost,ROGUE-Outlaw;DRUID-Feral,WARRIOR-Fury;130;true;0;278873;117136;0;7;1398;1391;Frost;true
+1544342719;1672;4;MAGE-Frost,ROGUE-Outlaw;HUNTER-Survival,ROGUE-Assassination;113;false;0;94233;88616;0;-16;1419;1466;Frost;true
+1544342577;1552;4;MAGE-Frost,ROGUE-Outlaw;MONK-Windwalker,PALADIN-Retribution;114;true;0;224633;98214;0;6;1388;1388;Frost;true
+1544342429;617;4;MAGE-Frost,ROGUE-Outlaw;DRUID-Balance,DRUID-Restoration;86;true;0;216427;26031;0;5;1355;1354;Frost;true
+1544342311;572;4;MAGE-Frost,ROGUE-Outlaw;PRIEST-Discipline,WARRIOR-Arms;173;false;0;277435;93635;0;-18;1390;1389;Frost;true
+1544340889;980;4;MAGE-Frost,ROGUE-Assassination;HUNTER-Beast Mastery,PALADIN-Retribution;107;true;2;180305;105591;0;13;1584;1594;Frost;true
+1544340733;1552;4;MAGE-Frost,ROGUE-Assassination;DEMONHUNTER-Havoc,PALADIN-Holy;120;true;0;362170;0;0;12;1557;1557;Frost;true
 1544261510;1505;4;MAGE-Frost,ROGUE-Assassination;DEMONHUNTER-Havoc,SHAMAN-Restoration;125;true;1;300872;87408;0;20;1573;1813;Frost;true
 1544261351;1911;4;MAGE-Frost,ROGUE-Assassination;PRIEST-Discipline,WARRIOR-Fury;204;false;0;374806;118903;0;-10;1598;1607;Frost;true
 1544261099;980;4;MAGE-Frost,ROGUE-Assassination;MONK-Mistweaver,WARRIOR-Arms;153;true;1;305062;26241;0;13;1573;1565;Frost;true
@@ -38,4 +65,3 @@ Timestamp;Map;PlayersNumber;TeamComposition;EnemyComposition;Duration;Victory;Ki
 1544254082;1672;4;MAGE-Frost,ROGUE-Assassination;MAGE-Fire,PRIEST-Discipline;132;true;1;221096;26270;0;11;1444;1443;Frost;true
 1544253924;617;4;MAGE-Frost,ROGUE-Assassination;DRUID-Balance,MONK-Mistweaver;115;true;2;316548;15251;0;13;1412;1466;Frost;true
 1544253771;1672;4;MAGE-Frost,ROGUE-Assassination;PALADIN-Holy,SHAMAN-Enhancement;195;true;1;294808;72873;0;10;1386;1380;Frost;true
-
