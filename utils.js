@@ -125,6 +125,14 @@ window.chartColors = {
 
     // INITIALIZATION
 
+    // DEPRECATED
+    window.randomScalingFactor = function () {
+        console.log(Math.round(Samples.utils.rand(0, 100)));
+        return Math.round(Samples.utils.rand(0, 100));
+    };
+
+    window.arrSum = arr => arr.reduce((a, b) => a + b, 0);
+
     Samples.utils.srand(Date.now());
 
     // Google Analytics
