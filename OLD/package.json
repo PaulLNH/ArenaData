@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PaulLNH/ArenaData/issues"
   },
-  "homepage": "https://github.com/PaulLNH/ArenaData#readme"
+  "homepage": "https://github.com/PaulLNH/ArenaData#readme",
+  "dependencies": {
+    "moment": "^2.23.0"
+  }
 }
