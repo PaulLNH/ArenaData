@@ -1,15 +1,31 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-// import MMRLineGraph from './components/mmr/mmr';
-import Dashboard from './components/dashboard/Dashboard';
-import './App.css';
+import React, { Fragment } from 'react';
+import { Route } from 'react-rounter-dom';
+import {
+    CssBaseline,
+    withStyles,
+} from '@material-ui/core';
 
-class App extends Component {
-  render() {
-    return (
-          <Dashboard />
-    );
-  }
-}
+import AppHeader from './components/AppHeader';
+import Home from './pages/Home';
 
-export default App;
+const styles = theme => ({
+    main: {
+        padding: 3 * theme.spacing.unit,
+        [theme.breakpoints.down('xs')]: {
+            padding: 2 * theme.spacing.unit,
+        },
+    },
+});
+
+const App = ({ classes }) => (
+    <Fragment>
+        <CssBaseline />
+        <AppHeader />
+        <main className={classes.main}>
+            <Home />
+            <Route exact path="/" component={Home} />
+        </main>
+    </Fragment>
+);
+
+export default withStyles(styles)(App);
