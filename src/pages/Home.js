@@ -4,5 +4,12 @@ import {
 } from '@material-ui/core';
 
 export default () => (
-    <Typography variant="display1">Welcome Home!</Typography>
+    <div>
+    <Typography variant="h4">
+        Welcome To Arena Data!
+    </Typography>
+    <Typography variant="subtitle1">
+        Data Visualization of WoW Arenas using the REFlex addon CSV dump.
+    </Typography>
+    </div>
 );

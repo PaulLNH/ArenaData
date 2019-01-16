@@ -10,8 +10,8 @@ import { AccountCircle } from '@material-ui/icons';
 
 class LoginButton extends Component {
     state = {
-      authenticated: null,
-      user: null,
+      authenticated: false,
+      user: "Paul",
       menuAnchorEl: null,
     };
   
@@ -24,9 +24,9 @@ class LoginButton extends Component {
     }
   
     async checkAuthentication() {
-      const authenticated = await this.props.auth.isAuthenticated();
+      const authenticated = this.props.auth;
       if (authenticated !== this.state.authenticated) {
-        const user = await this.props.auth.getUser();
+        const user = "Paul";
         this.setState({ authenticated, user });
       }
     }
@@ -34,7 +34,7 @@ class LoginButton extends Component {
     login = () => this.props.auth.login();
     logout = () => {
       this.handleMenuClose();
-      this.props.auth.logout();
+      this.props.auth = false;
     };
   
     handleMenuOpen = event => this.setState({ menuAnchorEl: event.currentTarget });
@@ -75,4 +75,4 @@ class LoginButton extends Component {
     }
   }
   
-  export default withAuth(LoginButton);
+  export default LoginButton;

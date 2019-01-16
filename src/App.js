@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Route } from 'react-rounter-dom';
+import { Route } from 'react-router-dom';
 import {
     CssBaseline,
     withStyles,
@@ -7,6 +7,7 @@ import {
 
 import AppHeader from './components/AppHeader';
 import Home from './pages/Home';
+import MatchManager from './components/MatchManager';
 
 const styles = theme => ({
     main: {
@@ -22,8 +23,8 @@ const App = ({ classes }) => (
         <CssBaseline />
         <AppHeader />
         <main className={classes.main}>
-            <Home />
             <Route exact path="/" component={Home} />
+            <Route exact path="/matches" component={MatchManager} />
         </main>
     </Fragment>
 );
